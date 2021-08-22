@@ -5,3 +5,83 @@ body {
   font-family: 'Kumbh Sans', Verdana, Geneva, Tahoma, sans-serif;
   box-sizing: border-box;
 }
+
+.container {
+  width: 900px;
+  background-color: #fff;
+
+  display: flex;
+  border-radius: 1.4rem;
+  padding-top: 50px;
+
+  overflow: hidden;
+}
+
+main {
+  height: 100vh;
+
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq h1{
+  font-size: 2rem;
+  color: #1D1E35;
+  margin-bottom: 30px;
+}
+.faq {
+  margin-bottom: 60px;
+}
+.content-faq {
+  border-bottom: 1px solid #D6D6D6;
+  padding: 20px 0 20px 0;
+}
+
+dd {
+  display: none;
+}
+
+dt {
+  font-size: 0.9rem;
+  color: #787886;
+}
+
+.content-faq dd {
+  width: 340px;
+  margin: 0;
+  color: #787886;
+  font-size: 0.8rem;
+  margin: 15px 0 0 0px;
+}
+
+.active-dd{
+  display: block;
+}
+
+.active-dt{
+  font-weight: bold;
+  color: #1D1E35;
+}
+
+.image {
+  transform: translateX(-15%);
+  padding-top: 15px;
+}
+
+.logo {
+  width: 470px;
+  height: 359px;
+}
+
+.box {
+  width: 191px;
+  height: 184px;
+  transform: translate(-5%,-130%);
+  display: none;
+}
+
+.shadow{
+  display: none;
+}
